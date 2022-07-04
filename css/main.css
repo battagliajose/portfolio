@@ -1,0 +1,10 @@
+@font-face {
+    font-family: warGames;
+    src: url(../fonts/WarGames.ttf)
+}
+
+.nombre {
+    font-family: warGames;
+    font-size: 10rem;
+    color: green;
+}
