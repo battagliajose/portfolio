@@ -5,13 +5,15 @@
 
 .nombre {
     font-family: nameFont;
-    font-size: 5rem;
+    font-size: 10vw;
     color: blue;
     margin: 1rem;
 }
 
 .lista__logos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
     align-items: center;
 }
@@ -19,8 +21,19 @@
 .lista__logos-item {
     width: 10%;
     margin: 1rem;
+    min-width: 40px;
+    max-width: 100px;
 }
 
 .lista__logos-img {
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .nombre {
+        font-size: 7vw;
+    }
+    .lista__logos {
+        flex-wrap: nowrap;
+    }
 }
