@@ -1,10 +1,11 @@
 @font-face {
-    font-family: warGames;
-    src: url(../fonts/WarGames.ttf)
+    font-family: nameFont;
+    src: url(../fonts/zrnic___.ttf)
 }
 
 .nombre {
-    font-family: warGames;
-    font-size: 10rem;
-    color: green;
+    font-family: nameFont;
+    font-size: 5rem;
+    color: blue;
+    margin: 1rem;
 }
