@@ -9,3 +9,18 @@
     color: blue;
     margin: 1rem;
 }
+
+.lista__logos {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.lista__logos-item {
+    width: 10%;
+    margin: 1rem;
+}
+
+.lista__logos-img {
+    width: 100%;
+}
