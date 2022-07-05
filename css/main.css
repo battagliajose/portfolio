@@ -8,14 +8,32 @@
     font-size: 10vw;
     color: blue;
     margin: 1rem;
+
+    background: linear-gradient(#0000AA,#000055, #12AAFF, #0000FF, #0000FF);
+    -webkit-background-clip: text;
+    color: transparent;  
 }
 
-.lista__logos {
+.programador {
+    font-family: nameFont;
+    font-size: 2vw;
+    color: blue;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+.lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     align-items: center;
+    padding: 0;
+    margin: 2rem; 
+}
+
+.logos {
+    background-color: bisque;
 }
 
 .lista__logos-item {
