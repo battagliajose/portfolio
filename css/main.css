@@ -1,24 +1,23 @@
+/*font-family: 'Raleway', sans-serif;*/
+
 @font-face {
     font-family: nameFont;
     src: url(../fonts/zrnic___.ttf)
 }
 
-main {
-    width: 90vw;
-}
-
-.nombre {
+.encabezado__nombre {
     font-family: nameFont;
     font-size: 10vw;
     color: blue;
     margin: 1rem;
+    text-align: center;
 
     background: linear-gradient(#0000AA,#000055, #12AAFF, #0000FF, #0000FF);
     -webkit-background-clip: text;
     color: transparent;  
 }
 
-.programador {
+.encabezado__programador {
     font-family: nameFont;
     font-size: 2vw;
     color: blue;
@@ -60,11 +59,10 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-    .nombre {
+    .encabezado__nombre {
         font-size: 7vw;
     }
     .lista__logos {
         flex-wrap: nowrap;
     }
-    
 }

@@ -4,24 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+
     <title>José A. Battaglia - Desarrollador</title>
 </head>
 <body>
 
-    <header>
-        <h1 class="nombre">José A. Battaglia</h1>
-        <h2 class="programador">Programador</h2>
-    </header>
+    <section class="menu">
+        <header class="menu__nombre">
+            <p class="menu__list__item">josé a. battaglia</p>
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">battagliajose@gmail.com</a></li>
+            </ul>
+        </nav>
+    </section>
 
-    <main>
-        <section>
+    <main class="main">
+        <!-- <section class="encabezado">
+            <h1 class="encabezado__nombre">José A. Battaglia</h1>
+            <h2 class="encabezado__programador">Programador</h2>
+        </section> -->
+
+        <!-- <section>
             <ul class="lista titulos">
                 <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Experto Universitario en Programación con especialización en .NET</li>
                 <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Diplomatura en programación web full stack con React JS</li>
             </ul>
+        </section> -->
+
+        <section class="presentacion">
+            <p class="presentacion__saludo align_left">Hola, soy <span class="presentacion__saludo__nombre">José A. Battaglia</span></p>
+            <img src="img/imagenPerfil.png" alt="Foto de Perfil" class="presentacion__fotoDePerfil">
+            <p class="presentacion__saludo align_right"> y soy <span class="presentacion__saludo__programador">programador</span></p>
+            <h3></h3>
         </section>
 
         <section>
@@ -42,5 +71,6 @@
     <footer class="footer">
 
     </footer>
+
 </body>
 </html>

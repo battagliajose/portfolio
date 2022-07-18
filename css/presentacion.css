@@ -1,0 +1,36 @@
+/*font-family: 'Raleway', sans-serif;*/
+
+.presentacion {
+    display: grid;
+    width: 50vw;
+    margin:  30vh auto;
+}
+
+.presentacion__saludo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #464646;
+    text-align: center;
+}
+
+.presentacion__fotoDePerfil {
+    width: 15vw;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.presentacion__saludo__nombre {
+    font-size: larger;
+}
+
+.presentacion__saludo__programador {
+    font-size: larger;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.align_right {
+    text-align: right;
+}
