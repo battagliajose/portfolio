@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/acerca.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/skills.css">
 
     <title>José A. Battaglia - Desarrollador</title>
 </head>
-<body>
 
+<body>
     <section class="menu">
         <header class="menu__nombre">
-            <p class="menu__list__item">josé a. battaglia</p>
+            <p>josé a. battaglia</p>
         </header>
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">battagliajose@gmail.com</a></li>
-            </ul>
+        <nav class="menu__list">
+                <p class="menu__list__item"><a href="#top">Inicio</a></p>
+                <p class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></p>
+                <p class="menu__list__item"><a href="#skills">Skills</a></p>
+                <p class="menu__list__item"><a href="#formacion">Formación</a></p>
+                <p class="menu__list__item"><a href="#proyectos">Proyectos</a></p>
+                <p class="menu__list__item"><a href="#contacto">battagliajose@gmail.com</a></p>
         </nav>
     </section>
 
-    <main class="main">
+    <main>
         <!-- <section class="encabezado">
-            <h1 class="encabezado__nombre">José A. Battaglia</h1>
-            <h2 class="encabezado__programador">Programador</h2>
-        </section> -->
+                <h1 class="encabezado__nombre">José A. Battaglia</h1>
+                <h2 class="encabezado__programador">Programador</h2>
+            </section> -->
 
         <!-- <section>
-            <ul class="lista titulos">
-                <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Experto Universitario en Programación con especialización en .NET</li>
-                <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Diplomatura en programación web full stack con React JS</li>
-            </ul>
-        </section> -->
+                <ul class="lista titulos">
+                    <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Experto Universitario en Programación con especialización en .NET</li>
+                    <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Diplomatura en programación web full stack con React JS</li>
+                </ul>
+            </section> -->
 
         <section class="presentacion">
-            <p class="presentacion__saludo align_left">Hola, soy <span class="presentacion__saludo__nombre">José A. Battaglia</span></p>
-            <img src="img/imagenPerfil.png" alt="Foto de Perfil" class="presentacion__fotoDePerfil">
-            <p class="presentacion__saludo align_right"> y soy <span class="presentacion__saludo__programador">programador</span></p>
-            <h3></h3>
+            <p class="presentacion__saludo align_left">Hola, soy <span class="presentacion__saludo__nombre">José A.
+                    Battaglia</span></p>
+            <img class="presentacion__fotoDePerfil align_center" src="img/imagenPerfil.png" alt="Foto de Perfil">
+            <p class="presentacion__saludo align_right"> y soy <span
+                    class="presentacion__saludo__programador">programador</span></p>
         </section>
 
         <section>
@@ -66,11 +73,39 @@
                 <li class="lista__logos-item"><img src="img/logos/GitHub.jpg" alt="" class="lista__logos-img"></li>
             </ul>
         </section>
+
+        <section id="sobre-mi" class="acerca seccion">
+            <h2>Programador en constante actualización, busco sumar experiencia en el área de desarrollo.</h2>
+            <h2>Integrando equipos de trabajo cooperativos e impulsando los proyectos al máximo.</h2>
+        </section>
+
+        <section id="skills" class="skills seccion">
+            <ul>
+                <li><img src="" alt="">C#</li>
+                <li><img src="" alt="">Git</li>
+                <li><img src="" alt="">SQL</li>
+                <li><img src="" alt="">JS</li>
+                <li><img src="" alt="">HTML</li>
+            </ul>
+        </section>
+
+        <section id="formacion" class="formacion seccion">
+            <h2>FORMACION</h2>
+        </section>
+
+        <section id="proyectos" class="proyectos seccion">
+            <h2>PROYECTOS</h2>
+        </section>
+
+        <section id="contacto" class="contacto seccion">
+            <h2>CONTACTO</h2>
+        </section>
+
     </main>
 
     <footer class="footer">
-
+        <p>Desarrollado por José Battaglia - 07-2022</p>
     </footer>
-
 </body>
+
 </html>
