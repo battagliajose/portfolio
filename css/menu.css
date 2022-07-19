@@ -41,3 +41,30 @@ main {
     color: black;
 }
 
+@media screen and (max-width: 768px) {
+    .menu {
+        height: auto;
+    }
+
+    .menu__nombre {
+        display: none;
+    }
+
+    .menu__list {
+        flex-wrap: wrap;
+        margin: 0 1rem;
+    }
+
+    .menu__list__item {
+        margin-right: 15px;
+    }
+
+    .menu__list__item__contacto span {
+        display: none;
+    }
+    .menu__list__item__contacto:after {
+        content: "Contacto";
+    }
+
+}
+
