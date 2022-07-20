@@ -1,17 +1,22 @@
 /*font-family: 'Raleway', sans-serif;*/
-
 .presentacion {
-    width: 100vw;
-    height: 85vh;
-    margin:  15vh auto 0 auto;
+    margin-top: 4rem;
+}
+
+.presentacion__contenido {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto 23vh auto;
 }
 
 .presentacion__saludo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2vw;
     color: #464646;
     text-align: center;
+    margin-bottom: 1.5vh;
 }
 
 .presentacion__fotoDePerfil {
@@ -41,6 +46,8 @@
     text-align: right;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .presentacion__fotoDePerfil {
         width: 30vw;
@@ -51,6 +58,13 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 500px) {
+    .presentacion__fotoDePerfil {
+        width: 60vw;
+    }
 
+    .presentacion__saludo {
+        font-size: 1rem;
+    }
 }
+

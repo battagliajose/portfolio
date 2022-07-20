@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 4rem);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -52,6 +52,7 @@
 .logos {
     background-color: bisque;
     display: flex;
+    position: absolute;
     bottom: 0;
 }
 

@@ -1,8 +1,5 @@
-main {
-    margin-top: 50px;
-}
-
 .menu {
+    z-index: 10;
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,6 +12,21 @@ main {
 .menu__nombre {
     font-family: 'Raleway', sans-serif;
     margin: auto 15px;
+}
+
+.menu__redes {
+    display: flex;
+}
+
+#menu__linkedinLogo {
+    height: 50%;
+    align-self: center;
+    margin-right: 3vh;
+}
+
+#menu__gitHubLogo {
+    height: 60%;
+    align-self: center;
 }
 
 .menu__list {
@@ -43,7 +55,7 @@ main {
 
 @media screen and (max-width: 768px) {
     .menu {
-        height: auto;
+        /*height: auto;*/
     }
 
     .menu__nombre {
