@@ -1,8 +1,9 @@
 /*font-family: 'Raleway', sans-serif;*/
 
 .presentacion {
-    width: 50vw;
-    margin:  15vh auto;
+    width: 100vw;
+    height: 85vh;
+    margin:  15vh auto 0 auto;
 }
 
 .presentacion__saludo {
