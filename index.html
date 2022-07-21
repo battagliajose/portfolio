@@ -32,8 +32,6 @@
             <p>josé a. battaglia</p>
         </header>
         
-
-       
         <nav class="menu__list">
                 <p id="menu_top" class="menu__list__item">Inicio</p>
                 <p id="menu_acerca" class="menu__list__item">Sobre mi</p>
@@ -88,17 +86,29 @@
         </section>
 
         <section id="skills" class="skills seccion">
-            <ul>
-                <li><img src="" alt="">C#</li>
-                <li><img src="" alt="">Git</li>
-                <li><img src="" alt="">SQL</li>
-                <li><img src="" alt="">JS</li>
-                <li><img src="" alt="">HTML</li>
-            </ul>
+            <div class="skills__grid">
+                <div><img src="img/logos/Git.png" alt=""></div>
+                <div><img src="img/logos/sql.png" alt=""></div>
+                <div><img src="img/logos/c-sharp.png" alt=""></div>
+                <div></div>
+                <div></div> 
+                <div><img src="img/logos/js.png" alt=""></div>
+                <div><img src="img/logos/html5.png" alt=""></div>
+                <div><img src="img/logos/CSS3.png" alt=""></div>
+                <div><img src="img/logos/GitHub.png" alt=""></div>
+                <div><img src="img/logos/NET_Core.png" alt=""></div>
+            </div>
         </section>
 
         <section id="formacion" class="formacion seccion">
-            <h2>FORMACION</h2>
+            <ul class="lista titulos">
+                <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Experto Universitario en Programación con especialización en .NET</li>
+                <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Diplomatura en programación web full stack con React JS</li>
+            </ul>
+            <ul class="lista titulos">
+                <li class="lista__titulos-item"><img src="img/logos/Oracle.png" alt="" class="lista__titulos-img"><br>Oracle.ONE</li>
+                <li class="lista__titulos-item"><img src="img/logos/AluraLATAM.png" alt="" class="lista__titulos-img"><br>Alura LATAM</li>
+            </ul>
         </section>
 
         <section id="proyectos" class="proyectos seccion">
@@ -106,7 +116,20 @@
         </section>
 
         <section id="contacto" class="contacto seccion">
-            <h2>CONTACTO</h2>
+            <h3>Contacto</h3>
+            <h4>Completá el siguiente formulario y me pondré en contacto lo antes posible!</h4>
+
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="E-Mail"><br>
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" placeholder="Asunto"><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea><br>
+                <button>Enviar</button>
+            </form>
         </section>
 
     </main>

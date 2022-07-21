@@ -1,3 +1,22 @@
 .formacion {
-    background-color: lightgreen;
+    background-color: lightgrey;
+}
+
+.formacion ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.titulos {
+    width: 50vw;
+}
+
+.lista__titulos-item {
+    margin: 2rem;
+}
+
+.lista__titulos-img {
+    min-height: 3vw;
+    max-height: 8vw;
+    
 }

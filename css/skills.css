@@ -1,5 +1,23 @@
 .skills {
-
-
     background-color: lightgoldenrodyellow;
+}
+
+.skills__grid {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    transition: all .3s;
+}
+
+.skills img {
+    width: 8vw;
+}
+
+.skills__grid div:nth-child(odd) {
+    /*border: 3px solid black;
+    width: 16vw;
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;*/
 }

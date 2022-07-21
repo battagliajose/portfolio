@@ -42,11 +42,7 @@
     align-items: center;
     padding: 0;
     margin: 2rem; 
-    width: calc(100vw - 5rem);
-}
-
-.titulos {
-    width: 100vh;
+/*    width: calc(100vw - 5rem);*/
 }
 
 .logos {
