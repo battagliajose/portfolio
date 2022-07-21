@@ -38,6 +38,27 @@
     font-size: larger;
 }
 
+#presentacion__linkedinLogo {
+    height: 5vh;
+    align-self: center;
+    margin-right: 3vh;
+    transition: all .3s;
+}
+
+#presentacion__gitHubLogo {
+    height: 5vh;
+    align-self: center;
+    transition: all .3s;
+}
+
+#presentacion__linkedinLogo:hover {
+    transform: scale(1.1);
+}
+
+#presentacion__gitHubLogo:hover {
+    transform: scale(1.1);
+}
+
 .align_left {
     text-align: left;
 }
