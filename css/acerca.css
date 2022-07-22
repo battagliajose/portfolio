@@ -1,8 +1,13 @@
 .acerca {
-    background: url("../img/acerca_back.jpg") no-repeat center;
+    align-items: flex-end;
+    background: url("../img/programming_back1.jpg") no-repeat center;
     background-size: cover;
     color: white;
     font-size: 2rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.acerca__contenido {
+    width: 40%;
     text-align: center;
 }

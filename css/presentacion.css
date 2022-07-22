@@ -1,33 +1,37 @@
 /*font-family: 'Raleway', sans-serif;*/
 .presentacion {
     margin-top: 4rem;
+    background: url("../img/programming_back4.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .presentacion__contenido {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     width: 70%;
-    margin: 0 auto 23vh auto;
+    height: 80%;
 }
 
 .presentacion__saludo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2vw;
-    color: #464646;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
     margin-bottom: 1.5vh;
 }
 
 .presentacion__fotoDePerfil {
-    display:block;
-    margin: 0 auto;
+    display: block;
     width: 18vw;
     border-radius: 100%;
     padding: 3px;
     background-color: blue;
     box-sizing: border-box;
-    border: 5px solid lightseagreen;
+    box-shadow: 3px 3px 10px black;
+    border: 1px solid black;
 }   
 
 .presentacion__saludo__nombre {
@@ -48,12 +52,14 @@
 #presentacion__gitHubLogo {
     height: 5vh;
     align-self: center;
+    margin-right: 3vh;
     transition: all .3s;
 }
 
 #presentacion__cv {
-    height: 6vh;
-    /*align-self: center;*/
+    height: 5vh;
+    align-self: center;
+    margin-right: 3vh;
     transition: all .3s;
 }
 
@@ -69,15 +75,24 @@
     transform: scale(1.1);
 }
 
-.align_left {
-    text-align: left;
+.logos {
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
 }
 
-.align_right {
-    text-align: right;
+.lista__logos-item {
+    width: 10%;
+    margin: 1rem;
+    min-width: 40px;
+    max-width: 10vh;
 }
 
-
+.lista__logos-img {
+    width: 100%;
+}
 
 @media screen and (max-width: 768px) {
     .presentacion__fotoDePerfil {
@@ -86,6 +101,13 @@
 
     .presentacion__saludo {
         font-size: 1rem;
+    }
+
+    .encabezado__nombre {
+        font-size: 7vw;
+    }
+    .lista__logos {
+        flex-wrap: nowrap;
     }
 }
 

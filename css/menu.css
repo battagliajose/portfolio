@@ -5,6 +5,8 @@
     width: 100%;
     height: 4rem;
     background-color: #dff4f4;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
     display: flex;
     justify-content: space-between;
 }

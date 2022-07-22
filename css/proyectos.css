@@ -1,5 +1,6 @@
 .proyectos {
     background-color: lightyellow;
+    display: flex;
 }
 
 .proyectos__lasmoras img{
