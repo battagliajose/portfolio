@@ -1,3 +1,15 @@
 .proyectos {
     background-color: lightyellow;
 }
+
+.proyectos__lasmoras img{
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.proyectos__dislexia img {
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
