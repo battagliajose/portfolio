@@ -51,11 +51,21 @@
     transition: all .3s;
 }
 
+#presentacion__cv {
+    height: 6vh;
+    /*align-self: center;*/
+    transition: all .3s;
+}
+
 #presentacion__linkedinLogo:hover {
     transform: scale(1.1);
 }
 
 #presentacion__gitHubLogo:hover {
+    transform: scale(1.1);
+}
+
+#presentacion__cv:hover {
     transform: scale(1.1);
 }
 
