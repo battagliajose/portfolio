@@ -1,3 +1,53 @@
 .contacto {
-    background-color: darkkhaki;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../img/programming_back7.jpg") no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.contacto form {
+    text-align: center;
+}
+
+.contacto h3 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.contacto h4 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 30%;
+}
+
+.contacto input, textarea {
+    width: 100%;
+    height: 2rem;
+    background-color: lightblue;
+    color: green;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.contacto textarea {
+    height: 50%;
+    resize: none;
+}
+
+.contacto button {
+    height: 4rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    background-color: lightblue;
+    color: green;
+    transition: all 0.3s;
+}
+
+.contacto button:hover {
+    transform: scale(1.1);
+    background-color: aqua;
 }

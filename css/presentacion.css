@@ -3,6 +3,8 @@
     margin-top: 4rem;
     background: url("../img/programming_back4.jpg") no-repeat center;
     background-size: cover;
+    align-items: center;
+    justify-content: center;
 }
 
 .presentacion__contenido {
@@ -42,37 +44,16 @@
     font-size: larger;
 }
 
-#presentacion__linkedinLogo {
+.presentacion__iconos {
     height: 5vh;
     align-self: center;
     margin-right: 3vh;
     transition: all .3s;
 }
 
-#presentacion__gitHubLogo {
-    height: 5vh;
-    align-self: center;
-    margin-right: 3vh;
-    transition: all .3s;
-}
-
-#presentacion__cv {
-    height: 5vh;
-    align-self: center;
-    margin-right: 3vh;
-    transition: all .3s;
-}
-
-#presentacion__linkedinLogo:hover {
+.presentacion__iconos:hover {
     transform: scale(1.1);
-}
-
-#presentacion__gitHubLogo:hover {
-    transform: scale(1.1);
-}
-
-#presentacion__cv:hover {
-    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .logos {
@@ -111,7 +92,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .presentacion__fotoDePerfil {
         width: 60vw;
     }

@@ -37,6 +37,7 @@
 
 .menu__list__item:hover {
     transform: scale(1.15);
+    cursor: pointer;
 }
 
 .menu__list__item a{
@@ -68,6 +69,5 @@
     .menu__list__item__contacto:after {
         content: "Contacto";
     }
-
 }
 

@@ -1,16 +1,20 @@
 .proyectos {
+    background: url("../img/programming_back2.jpg") no-repeat center;
+    background-size: cover;
+    flex-direction: column;
     background-color: lightyellow;
     display: flex;
+    justify-content: center;
 }
 
-.proyectos__lasmoras img{
+.proyectos img {
     width: 35%;
     border-radius: 10px;
     box-shadow: 3px 3px 8px black;
+    transition: all 0.3s;
+    margin-left: 3rem;
 }
 
-.proyectos__dislexia img {
-    width: 35%;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px black;
+.proyectos img:hover {
+    transform: scale(1.1);
 }

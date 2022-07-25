@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/proyectos.css">
     <link rel="stylesheet" href="css/skills.css">
 
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
     <script src="js/scroll.js" defer></script>
 
     <title>José A. Battaglia - Desarrollador</title>
@@ -55,9 +57,9 @@
                 <img class="presentacion__fotoDePerfil" src="img/imagenPerfil.png" alt="Foto de Perfil">
                 <p class="presentacion__saludo"> y soy <span class="presentacion__saludo__programador">programador</span></p>
                 <div>
-                    <a href="https://www.linkedin.com/in/jose-a-battaglia/" target="_blank"><img id="presentacion__linkedinLogo" src="img/logos/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/battagliajose" target="_blank"><img id="presentacion__gitHubLogo" src="img/logos/GitHub.png" alt="GitHub"></a>
-                    <a href="cv/CV_JBattaglia_2022_PF.pdf" target="_blank"><img id="presentacion__cv" src="img/logos/CV.png" alt="Curriculum"></a>
+                    <a href="https://www.linkedin.com/in/jose-a-battaglia/" target="_blank"><img class="presentacion__iconos" src="img/logos/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/battagliajose" target="_blank"><img class="presentacion__iconos" src="img/logos/GitHub_White.png" alt="GitHub"></a>
+                    <a href="cv/CV_JBattaglia_2022_PF.pdf" target="_blank"><img class="presentacion__iconos" src="img/logos/CV.png" alt="Curriculum"></a>
                 </div>
             </div>
 
@@ -70,7 +72,7 @@
                 <li class="lista__logos-item"><img src="img/logos/CSS3.png" alt="" class="lista__logos-img"></li>
                 <li class="lista__logos-item"><img src="img/logos/js.png" alt="" class="lista__logos-img"></li>
                 <li class="lista__logos-item"><img src="img/logos/Git.png" alt="" class="lista__logos-img"></li>
-                <li class="lista__logos-item"><img src="img/logos/GitHub.jpg" alt="" class="lista__logos-img"></li>
+                <li class="lista__logos-item"><img src="img/logos/GitHub_White.png" alt="" class="lista__logos-img"></li>
             </ul>
         </section>
 
@@ -82,17 +84,20 @@
         </section>
 
         <section id="skills" class="seccion skills">
+            
             <div class="skills__grid">
-                <div><img src="img/logos/Git.png" alt=""></div>
-                <div><img src="img/logos/sql.png" alt=""></div>
+                
+                <div><img src="img/logos/NET_Core.png" alt=""></div>
                 <div><img src="img/logos/c-sharp.png" alt=""></div>
+                <div><img src="img/logos/sql.png" alt=""></div>
                 <div></div>
                 <div></div> 
                 <div><img src="img/logos/js.png" alt=""></div>
                 <div><img src="img/logos/html5.png" alt=""></div>
                 <div><img src="img/logos/CSS3.png" alt=""></div>
-                <div><img src="img/logos/GitHub.png" alt=""></div>
-                <div><img src="img/logos/NET_Core.png" alt=""></div>
+                <div><img src="img/logos/Git.png" alt=""></div>
+                <div><img src="img/logos/GitHub_White.png" alt=""></div>
+                <div><img src="img/logos/Figma.png" alt=""></div>
             </div>
         </section>
 
@@ -100,8 +105,7 @@
             <ul class="lista titulos">
                 <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Experto Universitario en Programación con especialización en .NET</li>
                 <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Diplomatura en programación web full stack con React JS</li>
-            </ul>
-            <ul class="lista titulos">
+
                 <li class="lista__titulos-item"><img src="img/logos/Oracle.png" alt="" class="lista__titulos-img"><br>Programación Fron End, Java y Soft Skills</li>
                 <li class="lista__titulos-item"><img src="img/logos/AluraLATAM.png" alt="" class="lista__titulos-img"><br>Programación Fron End, Java y Soft Skills</li>
             </ul>
@@ -134,16 +138,13 @@
             <h4>Completá el siguiente formulario y me pondré en contacto lo antes posible!</h4>
 
             <form>
-                <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
-                <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" placeholder="E-Mail"><br>
-                <label for="asunto">Asunto:</label><br>
                 <input type="text" id="asunto" name="asunto" placeholder="Asunto"><br>
-                <label for="mensaje">Mensaje:</label><br>
                 <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea><br>
-                <button>Enviar</button>
+                <button disabled>Enviar</button>
             </form>
+
         </section>
     </main>
 
