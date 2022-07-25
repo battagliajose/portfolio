@@ -2,8 +2,8 @@
     background: url("../img/programming_back5.jpg") no-repeat center;;
     background-size: cover;
     color: white;
-   justify-content: left;
-   align-items: center;
+    justify-content: left;
+    align-items: center;
 }
 
 .formacion ul {
@@ -25,5 +25,4 @@
 .lista__titulos-img {
     min-height: 3vw;
     max-height: 8vw;
-    
 }

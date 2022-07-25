@@ -136,13 +136,13 @@
         <section id="contacto" class="seccion contacto">
             <h3>Contacto</h3>
             <h4>Completá el siguiente formulario y me pondré en contacto lo antes posible!</h4>
-
-            <form>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
-                <input type="email" id="email" name="email" placeholder="E-Mail"><br>
-                <input type="text" id="asunto" name="asunto" placeholder="Asunto"><br>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea><br>
-                <button disabled>Enviar</button>
+            
+            <form action="https://formsubmit.co/jabattaglia@hotmail.com" method="POST">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required minlength="1" maxlength="30" title="Máximo 30 caracteres."><br>
+                <input type="email" id="email" name="email" placeholder="E-Mail" required><br>
+                <input type="text" id="asunto" name="asunto" placeholder="Asunto" required minlength="1" maxlength="30" title="Máximo 30 caracteres."><br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required minlength="1" maxlength="300" title="Máximo 300 caracteres."></textarea><br>
+                <button>Enviar</button>
             </form>
 
         </section>
