@@ -43,10 +43,5 @@ html {
     list-style: none;
     align-items: center;
     padding: 0;
-    margin: 2rem; 
     width: calc(100vw - 5rem);
-}
-
-@media screen and (max-width: 450px) {
-
 }

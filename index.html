@@ -37,7 +37,7 @@
         <nav class="menu__list">
                 <p id="menu_top" class="menu__list__item">Inicio</p>
                 <p id="menu_acerca" class="menu__list__item">Sobre mi</p>
-                <p id="menu_skills" class="menu__list__item">Skills</p>
+                <p id="menu_skills" class="menu__list__item">Tecnologías</p>
                 <p id="menu_formacion" class="menu__list__item">Formación</p>
                 <p id="menu_proyectos" class="menu__list__item">Proyectos</p>
                 <p id="menu_contacto" class="menu__list__item menu__list__item__contacto"><span>battagliajose@gmail.com</span></p>
@@ -45,16 +45,13 @@
     </section>
 
     <main>
-        <!-- <section class="encabezado">
-                <h1 class="encabezado__nombre">José A. Battaglia</h1>
-                <h2 class="encabezado__programador">Programador</h2>
-            </section> -->
-
-        <section class="presentacion seccion">
-
+       <section class="presentacion seccion">
             <div class="presentacion__contenido">
                 <p class="presentacion__saludo">Hola, soy <span class="presentacion__saludo__nombre">José A.Battaglia</span></p>
-                <img class="presentacion__fotoDePerfil" src="img/imagenPerfil.png" alt="Foto de Perfil">
+                <div class="presentacion__container__fotoDePerfil">
+                    <img class="presentacion__fotoDePerfil" src="img/imagenPerfil.png" alt="Foto de Perfil">
+                </div>
+                
                 <p class="presentacion__saludo"> y soy <span class="presentacion__saludo__programador">programador</span></p>
                 <div>
                     <a href="https://www.linkedin.com/in/jose-a-battaglia/" target="_blank"><img class="presentacion__iconos" src="img/logos/linkedin.png" alt="LinkedIn"></a>
@@ -78,15 +75,14 @@
 
         <section id="acerca" class="seccion acerca">
             <div class="acerca__contenido">
-                <h2>Programador en constante actualización, busco sumar experiencia en el área de desarrollo.</h2>
+                <h2>Soy un programador en constante actualización y busco sumar experiencia en el área de desarrollo.</h2>
                 <h2>Integrando equipos de trabajo cooperativos e impulsando los proyectos al máximo.</h2>
             </div>
         </section>
 
         <section id="skills" class="seccion skills">
-            
+            <h2>Tecnologías</h2>
             <div class="skills__grid">
-                
                 <div><img src="img/logos/NET_Core.png" alt=""></div>
                 <div><img src="img/logos/c-sharp.png" alt=""></div>
                 <div><img src="img/logos/sql.png" alt=""></div>
@@ -102,34 +98,53 @@
         </section>
 
         <section id="formacion" class="seccion formacion">
-            <ul class="lista titulos">
-                <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Experto Universitario en Programación con especialización en .NET</li>
-                <li class="lista__titulos-item"><img src="img/logos/utn.png" alt="" class="lista__titulos-img"><br>Diplomatura en programación web full stack con React JS</li>
-
-                <li class="lista__titulos-item"><img src="img/logos/Oracle.png" alt="" class="lista__titulos-img"><br>Programación Fron End, Java y Soft Skills</li>
-                <li class="lista__titulos-item"><img src="img/logos/AluraLATAM.png" alt="" class="lista__titulos-img"><br>Programación Fron End, Java y Soft Skills</li>
-            </ul>
+            <h2>Formación</h2>
+            <div class="titulos">
+                <div class="lista__titulos-item">
+                    <img src="img/logos/utn.png" alt="" class="lista__titulos-img">
+                    <p class="lista__titulos-text">Experto Universitario en Programación con especialización en .NET</p></li>
+                </div>
+                <div class="lista__titulos-item">
+                    <img src="img/logos/utn.png" alt="" class="lista__titulos-img">
+                    <p class="lista__titulos-text">Diplomatura en programación web full stack con React JS</p></li>
+                </div>
+                <div class="lista__titulos-item">
+                    <img src="img/logos/Oracle.png" alt="" class="lista__titulos-img">
+                    <p class="lista__titulos-text">Programación Fron End, Java y Soft Skills</p></li>
+                </div>
+                <div class="lista__titulos-item">
+                    <img src="img/logos/AluraLATAM.png" alt="" class="lista__titulos-img">
+                    <p class="lista__titulos-text">Programación Fron End, Java y Soft Skills</p></li>
+                </div>
+            </div>
         </section>
 
         <section id="proyectos" class="seccion proyectos">
             <h2>PROYECTOS</h2>
-            <div class="proyectos__lasmoras">
-            <h3>Las Moras</h3>
-                <img src="img/screenshots/LasMorasPortada.jpg" alt="Las Moras">
-                <a href="https://las-moras-final-react.herokuapp.com/" target="_blank">Las Moras-FrontEnd</a>
-                <a href="https://las-moras-final.herokuapp.com" target="_blank">Las Moras-BackEnd</a>
-            </div>
-            <div class="proyectos__dislexia">
-            <h3>Dislexia</h3>
-                <img src="img/screenshots/Dislexia.jpg" alt="Dislexia">
-                <a href="https://github.com/battagliajose/dislexia"target="_blank">GitHub</a>
-                <a href="https://battagliajose.github.io/dislexia/" target="_blank">Demo</a>
-            </div>
-            <div class="proyectos__encriptador">
+            <div class="proyectos__container">
+                <div class="proyecto">
+                    <h3>Las Moras</h3>
+                    <img src="img/screenshots/LasMorasPortada.jpg" alt="Las Moras">
+                    <a href="https://las-moras-final-react.herokuapp.com/" target="_blank">Las Moras-FrontEnd</a>
+                    <a href="https://las-moras-final.herokuapp.com" target="_blank">Las Moras-BackEnd</a>
+                </div>
 
-            </div>
-            <div class="proyectos__ahoracado">
+                <div class="proyecto">
+                    <h3>Dislexia</h3>
+                    <img src="img/screenshots/Dislexia.jpg" alt="Dislexia">
+                    <a href="https://github.com/battagliajose/dislexia"target="_blank">GitHub</a>
+                    <a href="https://battagliajose.github.io/dislexia/" target="_blank">Demo</a>
+                </div>
 
+                <div class="proyecto">
+                    <h3>Encriptador</h3>
+                    <img src="img/screenshots/Encriptador.jpg" alt="Encriptador">
+                </div>
+
+                <div class="proyecto">
+                    <h3>Juego Ahorcado</h3>
+                    <img src="img/screenshots/Ahorcado.jpg" alt="Juego Ahorcado">
+                </div>
             </div>
         </section>
 

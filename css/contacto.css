@@ -8,17 +8,18 @@
 
 .contacto form {
     text-align: center;
+    width: 30%;
 }
 
 .contacto h3 {
     font-size: 2rem;
-    margin: 1rem;
 }
 
 .contacto h4 {
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 1.2rem;
+    margin: 2rem;
     width: 30%;
+    text-align: center;
 }
 
 .contacto input, textarea {
@@ -28,8 +29,10 @@
     color: green;
     border: none;
     margin-bottom: 1rem;
-    font-size: 2rem;
     border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    transition: all 0.3s;
 }
 
 .contacto textarea {
@@ -37,17 +40,25 @@
     resize: none;
 }
 
+.contacto textarea::placeholder, input::placeholder {
+    color: lightseagreen;
+}
+
 .contacto button {
-    height: 4rem;
+    height: 2rem;
     border: none;
     border-radius: 1.5rem;
-    font-size: 2rem;
     background-color: lightblue;
     color: green;
     transition: all 0.3s;
+    width: 5rem;
 }
 
 .contacto button:hover {
     transform: scale(1.1);
     background-color: aqua;
+}
+
+.contacto input:hover, textarea:hover {
+    transform: scale(1.03);
 }

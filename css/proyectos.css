@@ -1,20 +1,31 @@
 .proyectos {
-    background: url("../img/programming_back2.jpg") no-repeat center;
-    background-size: cover;
-    flex-direction: column;
     background-color: lightyellow;
-    display: flex;
-    justify-content: center;
+    background-size: cover;
+    background: url("../img/programming_back2.jpg") no-repeat center;
 }
 
-.proyectos img {
-    width: 35%;
-    border-radius: 10px;
+.proyectos__container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    margin-top: 1rem;
+}
+
+.proyecto h3 {
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.proyecto img {
+    border-radius: 1rem;
     box-shadow: 3px 3px 8px black;
+    
     transition: all 0.3s;
-    margin-left: 3rem;
+    width: 80%
 }
 
 .proyectos img:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
