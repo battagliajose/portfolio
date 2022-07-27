@@ -15,6 +15,7 @@ html {
     display: flex;
     height: calc(100vh - 4rem);
     font-family: 'Raleway', sans-serif;
+    overflow: hidden;
 }
 
 .encabezado__nombre {
