@@ -164,5 +164,13 @@
     .lista__logos-item:nth-child(2) {
         display: none;
     }
+
+    .lista__logos-item:nth-child(7) {
+        display: none;
+    }
+
+    .lista__logos-item:nth-child(7) {
+        display: none;
+    }
 }
 

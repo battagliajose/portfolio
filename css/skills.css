@@ -66,6 +66,7 @@
     }
 
     .skills__grid div:nth-child(4) {
+        grid-column: 2 / 2 !important;
     }
 
     .skills__grid div:last-child {
