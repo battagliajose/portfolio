@@ -52,3 +52,32 @@
     margin-left: 1rem;
     align-self: center;
 }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 450px) {
+    .formacion {
+        align-items: center;
+    }
+
+    .formacion h2 {
+        margin-top: 2.5rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .titulos {
+        width: 80vw;
+        height: 70vh
+    }
+
+    .lista__titulos-item {
+        flex-direction: column;
+    }
+
+    .lista__titulos-img {
+        width: fit-content;
+    }
+}
