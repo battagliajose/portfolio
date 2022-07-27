@@ -88,11 +88,14 @@
     align-self: center;
     margin-right: 3vh;
     transition: all .3s;
+    padding: .5rem;
 }
 
 .presentacion__iconos:hover {
     transform: scale(1.1);
     cursor: pointer;
+    background-color: black;
+    border-radius: 1rem;
 }
 
 .logos {

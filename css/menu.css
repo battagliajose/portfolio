@@ -16,27 +16,28 @@
     margin: auto 15px;
 }
 
-.menu__redes {
-    display: flex;
-}
-
 .menu__list {
     display: flex;
     list-style: none;
 }
 
 .menu__list__item {
-    margin-right: 30px;
+    margin-right: 1rem;
     font-family: 'Raleway', sans-serif;
     transition: all .2s;
     align-self: center;
     backface-visibility: hidden;
     transform: translateZ(0);
     -webkit-font-smoothing: subpixel-antialiased;
+    padding: 1rem;
 }
 
 .menu__list__item:hover {
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
+    background-color: orange;
+    
+    border-radius: .3rem;
+    color: black;
     cursor: pointer;
 }
 
@@ -46,10 +47,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .menu {
-        /*height: auto;*/
-    }
-
     .menu__nombre {
         display: none;
     }
