@@ -46,3 +46,9 @@ html {
     padding: 0;
     width: calc(100vw - 5rem);
 }
+
+@media screen and (max-width: 450px) {
+    html {
+        scroll-snap-type: none;
+    }
+}
