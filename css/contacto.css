@@ -63,8 +63,23 @@
     transform: scale(1.03);
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 1024px) {
+        .contacto {
+            background-position: 38%;
+        }
+    
+        .contacto h3 {
+            margin-top: 3rem;   
+        }
+        
+        .contacto h4 {
+            width: 80%;
+            margin: 1rem;
+        }
+    
+        .contacto form {
+            width: 80%;
+        }
 }
 
 @media screen and (max-width: 450px) {

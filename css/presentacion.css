@@ -41,39 +41,16 @@
     height: 18vw;
     border-radius: 100%;
     padding: 3px;
-    /* background-color: blue; */
+    background-color: blue;
     box-sizing: border-box;
     box-shadow: 3px 3px 10px black;
     border: 1px solid black;
     overflow: hidden;
     background: url("../img/imagenPerfil.png") no-repeat center;
-    /*background-size: cover;*/
+    background-size: cover;
     background-size: 105%;
     background-position: 50% 50%;
-
-    animation-name: animBack;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
 }
-
-@keyframes animFoto  {
-    0%      { transform: translate(0px, 0px);}
-    25%     { transform: translate(4px, -4px);}
-    50%     { transform: translate(-3px, 0px);}
-    75%     { transform: translate(0px, -3px);}
-    100%    { transform: translate(0px, 0px);}
-}
-
-@keyframes animBack  {
-    0%      { background-position: 20% 20%;}
-    50%     { background-position: 50% 50%;}
-    100%     { background-position: 100% 100%;}
-}
-
-
-
 
 .presentacion__saludo__nombre {
     font-size: larger;
@@ -121,7 +98,26 @@
 /*@media screen and (max-width: 768px) {}*/
 /*@media screen and (max-width: 450px) {}*/
 
-        
+   
+@media screen and (max-width: 1024px) {
+    .presentacion__contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: 80%;
+    }
+
+    .presentacion__container__fotoDePerfil {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    .presentacion__saludo {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .presentacion__container__fotoDePerfil {
         width: 30vw;
@@ -135,6 +131,7 @@
     .encabezado__nombre {
         font-size: 7vw;
     }
+
     .lista__logos {
         flex-wrap: nowrap;
     }

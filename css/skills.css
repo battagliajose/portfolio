@@ -1,7 +1,7 @@
 .skills {
     align-items: center;
-    background-size: cover;
     background: url(../img/programming_back3.jpg) no-repeat center;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
 }
@@ -36,7 +36,21 @@
     grid-column: 2 / 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .skills__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5rem;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .skills img {
+        width: 25vw;
+    }
+
+    .skills__grid div:nth-child(4) {
+        grid-column: 2 / 1;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -57,5 +71,4 @@
     .skills__grid div:last-child {
         display:none;
     }
-    
 }
