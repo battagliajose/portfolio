@@ -94,7 +94,7 @@
 .presentacion__iconos:hover {
     transform: scale(1.1);
     cursor: pointer;
-    background-color: black;
+    background-color: darkblue;
     border-radius: 1rem;
 }
 
