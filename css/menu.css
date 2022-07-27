@@ -47,6 +47,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .menu {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
     .menu__nombre {
         display: none;
     }
@@ -57,7 +61,7 @@
     }
 
     .menu__list__item {
-        margin-right: 15px;
+        margin-right: 0.3rem
     }
 
     .menu__list__item__contacto span {
@@ -65,6 +69,13 @@
     }
     .menu__list__item__contacto:after {
         content: "Contacto";
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu__list {
+        flex-wrap: wrap;
+        margin: 0 0.5rem;
     }
 }
 
